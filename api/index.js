@@ -24,4 +24,5 @@ const calculate = (num, arr) => {
   return getSum(num, maxOfArray);
 };
 
+console.log(getSum(5, 10)); // 15
 module.exports = { getSum, getMax, calculate };

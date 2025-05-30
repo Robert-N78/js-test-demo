@@ -22,3 +22,12 @@ describe("getSum func testing", () => {
     expect(getSum("12", null)).toBe("Invalid input");
   });
 });
+
+// Integration testing
+
+describe("getSum and getMax integration test", () => {
+  test("test all parameters correct", () => {
+    const result = calculate(10, [1, 2, 10]);
+    expect(result).toBe(20);
+  });
+});
